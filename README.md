@@ -26,6 +26,14 @@ https://github.com/jaqsentanner/Challenge-09
 
 ## Javascript Screenshots ↓
 
+![](./Develop/assets/java1.PNG)
+![](./Develop/assets/java2.PNG)
+![](./Develop/assets/java3.PNG)
+![](./Develop/assets/java4.PNG)
+
+## Sample README.md Screenshot ↓
+
+![](./Develop/assets/newreadme.PNG)
 
 ## License
 

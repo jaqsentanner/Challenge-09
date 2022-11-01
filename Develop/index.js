@@ -49,6 +49,11 @@ const questions = [
         message: 'How is this project licensed?',
         choices: ['MIT', 'ISC', 'Apache License 2.0', 'Creative Commons', 'GNUPLv3', 'Mozilla Public License 2.0', 'This project is unlicensed'],
     },
+    {
+        type: 'input',
+        name: 'questions',
+        
+    }
 ]
 
 inquirer
@@ -60,7 +65,7 @@ inquirer
     err ? console.error(err) : console.log('It worked, didnt it?'))
     });
 
-    
+
 // TODO: Create a function to initialize app
 function init() {}
 
