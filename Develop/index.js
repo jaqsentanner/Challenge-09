@@ -1,10 +1,12 @@
 // TODO: Include packages needed for this application - Completed.
 const inquirer = require('inquirer');
 const fs = require('fs');
+const markDown = require('./utils/generateMarkdown');
 
-// console.log("run test");
 
-// TODO: Create an array of questions for user input
+// console.log("run test"); Testing that everything was working within node and the command line. Completed. 
+
+// TODO: Create an array of questions for user input - Completed.
 const questions = [
     {
         type: 'input',
@@ -41,18 +43,28 @@ const questions = [
         name: 'test',
         message: 'What are the instructions to test this program?',
     },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'How is this project licensed?',
+        choices: ['MIT', 'ISC', 'Apache License 2.0', 'Creative Commons', 'GNUPLv3', 'Mozilla Public License 2.0', 'This project is unlicensed'],
+    },
 ]
 
 inquirer
     .prompt((questions))
-
-    .then((response) => 
-    console.log(response)
-    );
-
     
+    .then((data) => {
+    const marker = markDown.generateMarkdown(data)
+    console.log(marker)
+    return data
+    }
+    )
+
+
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
+    
 
 // TODO: Create a function to initialize app
 function init() {}
