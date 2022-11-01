@@ -57,16 +57,10 @@ inquirer
     .then((data) => {
     const marker = markDown.generateMarkdown(data)
     fs.writeFile('readme2.md', marker, (err) =>
-    err ? console.error(err) : console.log('worked, didnt it?'))
+    err ? console.error(err) : console.log('It worked, didnt it?'))
     });
 
-
-
-
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
     
-
 // TODO: Create a function to initialize app
 function init() {}
 

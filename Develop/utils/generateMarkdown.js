@@ -19,37 +19,37 @@ function renderLicenseSection(license) {}
 
     static generateMarkdown(data) {
       return `
-            # ${data.title}          
+# ${data.title}          
   
-            ## Table of Contents
-            - [Project Description](#Description)
-            - [Created By](#Creator)
-            - [Installation Instructions](#Install)
-            - [Usage](#Usage)
-            - [How to Contribute](#Constribution)
-            - [Testing Instructions](#Test)
-            - [License](#License)
+## Table of Contents
+- [Project Description](#Description)
+- [Created By](#Creator)
+- [Installation Instructions](#Install)
+- [Usage](#Usage)
+- [How to Contribute](#Constribution)
+- [Testing Instructions](#Test)
+- [License](#License)
   
-            ## Description
-            ${data.description}
+## Description
+${data.description}
   
-            ## CreatedBy
-            ${data.creator}
+## CreatedBy
+${data.creator}
   
-            ## Installation
-            ${data.install}
+## Installation
+${data.install}
   
-            ## Useage
-            ${data.useage}
+## Useage
+${data.useage}
   
-            ## Contribution
-            ${data.contribution}
+## Contribution
+${data.contribution}
   
-            ## Testing
-            ${data.test}
+## Testing
+${data.test}
   
-            ## Licensing
-            ${data.license}
+## Licensing
+${data.license}
     `;
     }}
 
