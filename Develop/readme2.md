@@ -1,6 +1,6 @@
 
-# please          
-  
+# Fuzzy Hotsauce
+
 ## Table of Contents
 - [Project Description](#Description)
 - [Created By](#Creator)
@@ -11,23 +11,23 @@
 - [License](#License)
   
 ## Description
-say
+It's saucey and it's bossy.
   
 ## CreatedBy
-always
+Frank Red
   
 ## Installation
-the
+Fire it up.
   
 ## Useage
-truth
+Tear and peal.
   
 ## Contribution
-man
+Turn up the heat!
   
 ## Testing
-yes
+Test with caution..
   
 ## Licensing
-MIT
+ISC
     
